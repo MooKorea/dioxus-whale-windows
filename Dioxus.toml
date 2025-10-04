@@ -1,0 +1,29 @@
+[application]
+name = "shork"
+
+[web.app]
+
+# HTML title tag content
+title = "rust-windows-dioxus"
+
+# include `assets` in web platform
+[web.resource]
+
+# Additional CSS style files
+style = []
+
+# Additional JavaScript files
+script = []
+
+[web.resource.dev]
+
+# Javascript code file
+# serve: [dev-server] only
+script = []
+
+[bundle]
+identifier = "com.shork"
+publisher = "Andy"
+icon = [
+    "icons/icon.ico"
+]
